@@ -21,8 +21,9 @@
     {% endif %}
   {% endfor %}
   ```
-  
-## Next
-* https://www.justinwhall.com/directory-jquery-slider/
-* https://www.w3schools.com/howto/howto_js_lightbox.asp
+  * Had to change the foldername to `pictures`, because jekyll spawns extra images in the `assets/images` folder :-)
+
+## Lightbox
+Used lightbox to create an image gallery using these sources:
+* http://lokeshdhakar.com/projects/lightbox2/
 * https://christianspecht.de/2014/03/08/generating-an-image-gallery-with-jekyll-and-lightbox2/

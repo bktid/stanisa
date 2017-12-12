@@ -1,1 +1,1 @@
-# js files here
+# js files go here

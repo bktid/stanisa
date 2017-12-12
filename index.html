@@ -9,9 +9,9 @@
     <body>
         <h1>Stanisa</h1>
 
-        {% for image in site.static_files %}
-            {% if image.path contains 'images' %}
-                <a href="{{ site.baseurl }}{{ image.path }}" data-lightbox="roadtrip">{{ image.name }}</a>
+        {% for picture in site.static_files %}
+            {% if picture.path contains 'pictures' %}
+                <a href="{{ site.baseurl }}{{ picture.path }}" data-lightbox="roadtrip">{{ picture.name }}</a>
             {% endif %}
         {% endfor %}
         

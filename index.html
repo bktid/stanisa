@@ -11,6 +11,7 @@
 
         {% for image in site.static_files %}
             {% if image.path contains 'images' %}
+                <a href="{{ image.path }}" data-lightbox="roadtrip">{{ image.name }}</a>
                 <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endif %}
         {% endfor %}

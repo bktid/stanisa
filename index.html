@@ -3,7 +3,7 @@
 
 <html>
     <head>
-        <link href="/css/lightbox.css" rel="stylesheet" />
+        <link href="{{ site.baseurl }}css/lightbox.css" rel="stylesheet" />
     </head>
     
     <body>
@@ -11,11 +11,13 @@
 
         {% for picture in site.static_files %}
             {% if picture.path contains 'pictures' %}
-                <a href="{{ site.baseurl }}{{ picture.path }}" data-lightbox="roadtrip">{{ picture.name }}</a>
+                <a href="{{ site.baseurl }}{{ picture.path }}" data-lightbox="roadtrip">
+                    <img height="100px" src="{{ site.baseurl }}{{ picture.path }}"/>
+                </a>
             {% endif %}
         {% endfor %}
         
-        <script src="/js/jquery-3.2.1.min.js"></script>
-        <script src="/js/lightbox.min.js"></script>
+        <script src="{{ site.baseurl }}js/jquery-3.2.1.min.js"></script>
+        <script src="{{ site.baseurl }}js/lightbox.min.js"></script>
     </body>
 </html>

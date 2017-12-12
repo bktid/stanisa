@@ -1,10 +1,21 @@
 ---
 ---
 
-<h1>hello world</h1>
+<html>
+    <head>
+        <link href="/css/lightbox.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <h1>Stanisa</h1>
 
-{% for image in site.static_files %}
-    {% if image.path contains 'images' %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-    {% endif %}
-{% endfor %}
+        {% for image in site.static_files %}
+            {% if image.path contains 'images' %}
+                <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            {% endif %}
+        {% endfor %}
+        
+        <script src="/js/jquery-3.2.1.min.js"></script>
+        <script src="/js/lightbox.min.js"></script>
+    </body>
+</html>

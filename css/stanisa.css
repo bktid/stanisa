@@ -27,15 +27,18 @@ body {
 .stanisa_main {
     width: 100%;
     margin: auto;
+    background: rgb(255,0,0);
 }
 @media (min-width: 38em) {
   .stanisa_main {
     max-width: 32rem;
+      background: rgb(255,255,0);
   }
 }
 @media (min-width: 56em) {
   .stanisa_main {
     max-width: 38rem;
+    background: rgb(255,255,255);  
   }
 }
 

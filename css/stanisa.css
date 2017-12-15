@@ -15,9 +15,18 @@ body {
 }
 
 .stanisa_main {
-    width: 100%;
-    max-width: 800px;
+    max-width: 28rem;
     margin: auto;
+}
+@media (min-width: 38em) {
+  .stanisa_main {
+    max-width: 32rem;
+  }
+}
+@media (min-width: 56em) {
+  .stanisa_main {
+    max-width: 38rem;
+  }
 }
 
 .stanisa_title {

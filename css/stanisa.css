@@ -1,6 +1,16 @@
 ---
 ---
 
+html {
+    font-size: 16px;
+}
+
+@media (min-width: 38rem) {
+    html {
+        font-size: 20px;
+    }
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -15,7 +25,7 @@ body {
 }
 
 .stanisa_main {
-    max-width: 28rem;
+    width: 100%;
     margin: auto;
 }
 @media (min-width: 38em) {

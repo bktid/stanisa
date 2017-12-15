@@ -3,19 +3,55 @@
 
 <html>
     <head>
-        <link href="{{ site.baseurl }}/css/lightbox.css" rel="stylesheet" />
+        <link href="{{ site.baseurl }}/css/stanisa.css" type="text/css" rel="stylesheet" />
+        <link href="{{ site.baseurl }}/css/lightbox.css" type="text/css" rel="stylesheet" />
     </head>
     
-    <body>
-        <h1>Stanisa</h1>
+    <body >
+        <div class="stanisa_main">
+        	<div class="stanisa_golden_block">
+	        	<h1 class="stanisa_title">Stanisa - Kapster - Nagelstyliste</h1>
+        	</div>
 
-        {% for picture in site.static_files %}
-            {% if picture.path contains 'pictures' %}
-                <a href="{{ site.baseurl }}{{ picture.path }}" data-lightbox="roadtrip">
-                    <img height="100px" src="{{ site.baseurl }}{{ picture.path }}"/>
-                </a>
-            {% endif %}
-        {% endfor %}
+        	<div class="stanisa_golden_block">
+        		<div class="stanisa_golden_block_picture_container">
+        		  <img src="{{ site.baseurl }}/assets/me.jpg">
+        		</div>
+        		<p>
+        			Hallo allemaal, mijn naam is Stanisa en ben vanaf mijn 23ste kapster en nagelstyliste. In Aarschot aan de Sima heb ik de opleiding haartooi gevolgd. Tijdens die schooltijd startte ik gelijktijdig een cursus in Nederland voor de gelnagels. Ondertussen heb ik nog meerdere aanvullende nagelopleidingen vervolmaakt. Ik combineer de twee omdat ik gepassioneerd ben in zowel de kapsels als de kunstnagels.
+        		</p>
+        		<p>
+        			Voor mijn kapsalon geef ik de voorkeur aan de producten van Wella, die aangenaam in gebruik zijn omdat ze allemaal een geparfumeerde geur hebben. Bovendien blijven de kleuringen enorm lang met veel glans, die je extra uitstraling geeft. Als je vragen hebt over een bepaald kapsel of je weet echt niet wat je wil, dan geef ik je natuurlijk graag mijn advies.
+        		</p>
+        		<p>
+        			Voor de nagelstyling werk ik met de producten van Qnb. Airbrush, daar kun je ook voor bij mij terecht. Het is een artistiek schilderijtje op je vingernagel! Heb je interesse voor kunstnagels en wil je graag een workshop volgen? Dat kan, voor meer info mag je mij altijd bellen of mailen.
+        		</p>
+        		<p>
+        			Om op de hoogte te blijven van de nieuwe trends en nieuwste technieken doe ik regelmatig een bijscholing. Zo krijgen jullie een optimale behandeling.
+        		</p>
+        		<p>
+        			Ik werk steeds op afspraak. Al mijn gegevens zijn vermeld onderaan deze pagina.
+        		</p>
+        		<p>
+        			Groetjes,
+        		</p>
+        		<p>
+        			Stanisa
+        		</p>
+
+        	</div>
+
+        	<div class="stanisa_golden_block">
+        		<h1 class="stanisa_golden_block_title">Realisaties</h1>
+                {% for picture in site.static_files %}
+                    {% if picture.path contains 'pictures' %}
+                        <a href="{{ site.baseurl }}{{ picture.path }}" data-lightbox="roadtrip">
+                            <img height="100px" src="{{ site.baseurl }}{{ picture.path }}"/>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+        	</div>
+        </div>
         
         <script src="{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
         <script src="{{ site.baseurl }}/js/lightbox.min.js"></script>

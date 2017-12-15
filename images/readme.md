@@ -1,1 +1,3 @@
-# directory for lightbox images next, prev, loading, close
+* backgrounds
+* profile picture
+* lightbox images

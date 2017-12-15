@@ -10,7 +10,6 @@ body {
     background-image: url('{{ site.baseurl }}/images/background1.jpg');
     background-size: cover;
     background-attachment: fixed;
-    margin: 0px;
     font-family: Arial;
     color: rgb(41, 49, 51);
 }

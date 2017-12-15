@@ -7,9 +7,12 @@ html, body {
 }
 
 body {
-    background-image: url('{{ site.baseurl }}/images/background1.jpg');
+    background: url('{{ site.baseurl }}/images/background2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+
     font-family: Arial;
     color: rgb(41, 49, 51);
 }

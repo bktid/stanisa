@@ -22,6 +22,8 @@ body {
     background-attachment: fixed;
     font-family: Arial;
     color: rgb(41, 49, 51);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 .stanisa_main {

@@ -8,4 +8,5 @@
 * radius percentage ipv px
 * te veel padding onderaan imageke op mobiel
 * bootstrap defaults overnemen
+* box sizing defaults
 * bootstrap versie maen met carousel enzo

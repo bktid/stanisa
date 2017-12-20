@@ -45,6 +45,6 @@ body {
 }
 
 .stanisa_golden_block_picture_container img {
-    border-radius: 30px 30px 30px 0px;
+    border-radius: 2em 2em 2em 0;
     width: 100%; /* picture has to fill it's container */
 }

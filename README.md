@@ -27,7 +27,7 @@ I do know github pages...
     {% endif %}
   {% endfor %}
   ```
-  * Had to change the foldername to `pictures`, because jekyll spawns extra images in the `assets/images` folder :-)
+  * Had to change the foldername to `realisaties`, because jekyll spawns extra images in the `assets/images` folder :-)
 
 ## Lightbox
 Used [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) to create an image gallery using this source:

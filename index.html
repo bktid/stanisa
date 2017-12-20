@@ -44,10 +44,10 @@
 
         	<div class="stanisa_golden_block">
         		<h1 class="stanisa_golden_block_title">Realisaties</h1>
-                {% for picture in site.static_files %}
-                    {% if picture.path contains 'pictures' %}
-                        <a href="{{ site.baseurl }}{{ picture.path }}" data-lightbox="roadtrip">
-                            <img height="100px" src="{{ site.baseurl }}{{ picture.path }}"/>
+                {% for realisatie in site.static_files %}
+                    {% if realisatie.path contains 'realisaties' %}
+                        <a href="{{ site.baseurl }}{{ realisatie.path }}" data-lightbox="roadtrip">
+                            <img height="100px" src="{{ site.baseurl }}{{ realisatie.path }}"/>
                         </a>
                     {% endif %}
                 {% endfor %}

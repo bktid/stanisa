@@ -42,7 +42,7 @@ body {
     background: rgba(232,183,104,0.8);
     border-radius: 6px;
     padding: 2% 4%; /* some padding for contents of .stanisa_golden_block */
-    margin: 0 0 20px 0; /* vertically separate consecutive .stanisa_golden_block */
+    margin: 20px 0 20px 0; /* vertically separate consecutive .stanisa_golden_block */
 }
 /* clear the floats used inside these blocks */
 .stanisa_golden_block:after {
@@ -60,7 +60,8 @@ body {
 
 /* logo */
 .stanisa_logo {
-    margin: 40px 0 40px 0;
+    width: 70%;
+    margin: 20px auto 20px auto;
 }
 .stanisa_logo img {
     width: 100%;

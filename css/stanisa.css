@@ -63,3 +63,18 @@ body {
     border-radius: 15% 15% 15% 0 / 18%; /* use this when you combine high values with rectangles that are pinched on small screens */
     width: 100%; /* picture has to fill it's container */
 }
+
+.stanisa_realisatie_block {
+    display: inline-block; /* this will span the background over the floating images */
+}
+
+.stanisa_realisatie_img_container {
+    float: left;
+    width: 25%;
+    padding: 4px; /* use padding, because margin would be added to the 25% */
+}
+
+.stanisa_realisatie_img_container img {
+    width: 100%;
+    border-radius: 4px;
+}

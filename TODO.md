@@ -11,6 +11,3 @@
 ## bootstrap
 * bootstrap variant maken en zien wat er nog nodig is van CSS
 * carousel
-
-## style fixes
-* divkes om lightbox mooi te verdelen

@@ -47,13 +47,15 @@
 
         	</div>
 
-        	<div class="stanisa_golden_block">
+        	<div class="stanisa_golden_block stanisa_realisatie_block">
         		<h1 class="stanisa_h1">Realisaties</h1>
                 {% for realisatie in site.static_files %}
-                    {% if realisatie.path contains 'realisaties' %}
-                        <a href="{{ site.baseurl }}{{ realisatie.path }}" data-lightbox="roadtrip">
-                            <img height="100px" src="{{ site.baseurl }}{{ realisatie.path }}"/>
-                        </a>
+					{% if realisatie.path contains 'realisaties' %}
+						<div class="stanisa_realisatie_img_container">
+							<a href="{{ site.baseurl }}{{ realisatie.path }}" data-lightbox="roadtrip">
+								<img src="{{ site.baseurl }}{{ realisatie.path }}"/>
+							</a>
+						</div>
                     {% endif %}
                 {% endfor %}
         	</div>

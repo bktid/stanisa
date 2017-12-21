@@ -38,7 +38,7 @@ p:first-of-type, p:last-of-type {
     background: rgba(218,165,32,0.8);
     border-radius: 6px;
     padding: 2% 4%; /* some padding for contents of .stanisa_golden_block */
-    margin: 2% 0 2% 0; /* vertically separate consecutive .stanisa_golden_block */
+    margin: 0 0 20px 0; /* vertically separate consecutive .stanisa_golden_block */
 }
 
 .stanisa_title {

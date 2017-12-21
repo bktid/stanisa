@@ -1,7 +1,6 @@
 # TODO
 
 ## functionaliteit
-* logo toevoegen
 * extra pagina's van stanisa.be
 * favicon
 * thumbnails ipv steeds de grote pictures

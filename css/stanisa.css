@@ -38,8 +38,8 @@ body {
 
 /* golden colored block */
 .stanisa_golden_block {
-    background: rgb(218,165,32); /* graceful degradation for rgba */
-    background: rgba(218,165,32,0.8);
+    background: rgb(232,183,104); /* graceful degradation for rgba */
+    background: rgba(232,183,104,0.8);
     border-radius: 6px;
     padding: 2% 4%; /* some padding for contents of .stanisa_golden_block */
     margin: 0 0 20px 0; /* vertically separate consecutive .stanisa_golden_block */
@@ -55,6 +55,13 @@ body {
 /* centered header */
 .stanisa_centered_h {
     text-align: center;
+}
+
+
+/* logo */
+.stanisa_logo {
+    width: 100%;
+    margin: 30px 0 30px 0;
 }
 
 

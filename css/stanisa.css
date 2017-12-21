@@ -2,28 +2,14 @@
 ---
 
 body {
+    color: rgb(41, 49, 51);
+
     /* no-scroll wallpaper */
     background: url('{{ site.baseurl }}/images/background2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    font-family: Arial;
-    color: rgb(41, 49, 51);
-}
-
-/* sensible box sizing defaults */
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-/* strip margins from first and last p, they conflict with padding of .stanisa_golden_block */
-p:first-of-type, p:last-of-type {
-    margin: 0;
 }
 
 /* for first paragraph, indent first line and increase font size of first letter */
@@ -51,12 +37,10 @@ p:first-of-type, p:last-of-type {
 
 .stanisa_title {
     text-align: center;
-    margin: 0; /* default margin conflicts with padding of .stanisa_golden_block */
 }
 
 .stanisa_golden_block_title {
     text-align: center;
-    margin: 0 0 2% 0; /* strip margins (except for bottom) because they conflict with padding of .stanisa_golden_block */
 }
 
 .stanisa_golden_block_picture_container {

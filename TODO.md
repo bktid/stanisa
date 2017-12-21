@@ -20,5 +20,4 @@
 
 ## style fixes
 * divkes om lightbox mooi te verdelen
-* reboot
 * fix lightbox visited hover active focus

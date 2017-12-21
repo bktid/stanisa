@@ -1,8 +1,12 @@
 ---
 ---
 
+p {
+}
+
 body {
-    color: rgb(41, 49, 51);
+    color: rgb(51, 61, 71);
+    margin: 8px; /* override reboot margin 0 */
 
     /* no-scroll wallpaper */
     background: url('{{ site.baseurl }}/images/background2.jpg') no-repeat center center fixed;

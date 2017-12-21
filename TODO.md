@@ -12,8 +12,5 @@
 * bootstrap variant maken en zien wat er nog nodig is van CSS
 * carousel
 
-## mobiel
-* kleinere font size op mobiel
-
 ## style fixes
 * divkes om lightbox mooi te verdelen

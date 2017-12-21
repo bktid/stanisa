@@ -20,5 +20,5 @@
 
 ## style fixes
 * divkes om lightbox mooi te verdelen
-* bootstrap defaults overnemen
 * box sizing defaults
+* reboot

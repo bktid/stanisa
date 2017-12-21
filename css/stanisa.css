@@ -13,6 +13,14 @@ body {
     color: rgb(41, 49, 51);
 }
 
+/* sensible box sizing defaults */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* strip margins from first and last p, they conflict with padding of .stanisa_golden_block */
 p:first-of-type, p:last-of-type {
     margin: 0;

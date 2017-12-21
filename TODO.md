@@ -20,5 +20,5 @@
 
 ## style fixes
 * divkes om lightbox mooi te verdelen
-* box sizing defaults
 * reboot
+* fix lightbox visited hover active focus

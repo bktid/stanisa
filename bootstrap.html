@@ -1,0 +1,129 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Stanisa - Beauty &amp; Nails</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="{{ site.baseurl }}/css/bootstrap.css" type="text/css" rel="stylesheet" />
+        <link href="{{ site.baseurl }}/css/lightbox.css" type="text/css" rel="stylesheet" />
+        <link href="{{ site.baseurl }}/css/stanisabootstrap.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body >
+		<div class="container">
+			<div class="row justify-content-center mb-5 mt-5">
+				<div class="col-8 col-md-6">
+					<img class="img-fluid" src="{{ site.baseurl }}/images/logo.png">						
+				</div>
+			</div>
+
+			<div class="row mb-4">
+				<div class="col">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="stanisa_golden_block">
+									<div class="stanisa_golden_block_picture_container">
+										<img src="{{ site.baseurl }}/images/profile.jpg">
+									</div>
+									<p class="stanisa_first_p">
+										Hallo allemaal, mijn naam is Stanisa en ben vanaf mijn 23ste kapster en nagelstyliste. In Aarschot aan de Sima heb ik de opleiding haartooi gevolgd. Tijdens die schooltijd startte ik gelijktijdig een cursus in Nederland voor de gelnagels. Ondertussen heb ik nog meerdere aanvullende nagelopleidingen vervolmaakt. Ik combineer de twee omdat ik gepassioneerd ben in zowel de kapsels als de kunstnagels.
+									</p>
+									<p>
+										Voor mijn kapsalon geef ik de voorkeur aan de producten van Wella, die aangenaam in gebruik zijn omdat ze allemaal een geparfumeerde geur hebben. Bovendien blijven de kleuringen enorm lang met veel glans, die je extra uitstraling geeft. Als je vragen hebt over een bepaald kapsel of je weet echt niet wat je wil, dan geef ik je natuurlijk graag mijn advies.
+									</p>
+									<p>
+										Voor de nagelstyling werk ik met de producten van Qnb. Airbrush, daar kun je ook voor bij mij terecht. Het is een artistiek schilderijtje op je vingernagel! Heb je interesse voor kunstnagels en wil je graag een workshop volgen? Dat kan, voor meer info mag je mij altijd bellen of mailen.
+									</p>
+									<p>
+										Om op de hoogte te blijven van de nieuwe trends en nieuwste technieken doe ik regelmatig een bijscholing. Zo krijgen jullie een optimale behandeling.
+									</p>
+									<p>
+										Ik werk steeds op afspraak. Al mijn gegevens zijn vermeld onderaan deze pagina.
+									</p>
+									<p>
+										Groetjes,
+									</p>
+									<p>
+										Stanisa
+									</p>
+								</div>						
+							</div>
+							<div class="carousel-item">
+								<div class="stanisa_golden_block">
+									<h1 class="stanisa_centered_h">Realisaties</h1>
+									{% for realisatie in site.static_files %}
+										{% if realisatie.path contains 'realisaties' %}
+											<div class="stanisa_realisatie_img_container">
+												<a href="{{ site.baseurl }}{{ realisatie.path }}" data-lightbox="roadtrip">
+													<img src="{{ site.baseurl }}{{ realisatie.path }}"/>
+												</a>
+											</div>
+										{% endif %}
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 mb-2">
+					<div class="stanisa_golden_block">
+						<div class="stanisa_golden_block_picture_container">
+								<img src="{{ site.baseurl }}/images/profile.jpg">
+						</div>
+						<p class="stanisa_first_p">
+							Hallo allemaal, mijn naam is Stanisa en ben vanaf mijn 23ste kapster en nagelstyliste. In Aarschot aan de Sima heb ik de opleiding haartooi gevolgd. Tijdens die schooltijd startte ik gelijktijdig een cursus in Nederland voor de gelnagels. Ondertussen heb ik nog meerdere aanvullende nagelopleidingen vervolmaakt. Ik combineer de twee omdat ik gepassioneerd ben in zowel de kapsels als de kunstnagels.
+						</p>
+						<p>
+							Voor mijn kapsalon geef ik de voorkeur aan de producten van Wella, die aangenaam in gebruik zijn omdat ze allemaal een geparfumeerde geur hebben. Bovendien blijven de kleuringen enorm lang met veel glans, die je extra uitstraling geeft. Als je vragen hebt over een bepaald kapsel of je weet echt niet wat je wil, dan geef ik je natuurlijk graag mijn advies.
+						</p>
+						<p>
+							Voor de nagelstyling werk ik met de producten van Qnb. Airbrush, daar kun je ook voor bij mij terecht. Het is een artistiek schilderijtje op je vingernagel! Heb je interesse voor kunstnagels en wil je graag een workshop volgen? Dat kan, voor meer info mag je mij altijd bellen of mailen.
+						</p>
+						<p>
+							Om op de hoogte te blijven van de nieuwe trends en nieuwste technieken doe ik regelmatig een bijscholing. Zo krijgen jullie een optimale behandeling.
+						</p>
+						<p>
+							Ik werk steeds op afspraak. Al mijn gegevens zijn vermeld onderaan deze pagina.
+						</p>
+						<p>
+							Groetjes,
+						</p>
+						<p>
+							Stanisa
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="stanisa_golden_block">
+						<h1 class="stanisa_centered_h">Realisaties</h1>
+						{% for realisatie in site.static_files %}
+							{% if realisatie.path contains 'realisaties' %}
+								<div class="stanisa_realisatie_img_container">
+									<a href="{{ site.baseurl }}{{ realisatie.path }}" data-lightbox="roadtrip">
+										<img src="{{ site.baseurl }}{{ realisatie.path }}"/>
+									</a>
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div>					
+			</div>	
+		</div>
+	
+		<script src="{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
+		<script src="{{ site.baseurl }}/js/bootstrap.bundle.min.js"></script>
+		<script src="{{ site.baseurl }}/js/lightbox.min.js"></script>
+	</body>
+</html>

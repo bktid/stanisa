@@ -8,6 +8,4 @@
 * scroll-naar-beneden animated gifkes toevoegen
 
 ## bootstrap
-* bootstrap variant maken en zien wat er nog nodig is van CSS
-* kolommen die op laptop naasteen staan maar mobiel gestacked worden
-* carousel (+ verstop overmaat aan tekst)
+* media object ipv picture containers

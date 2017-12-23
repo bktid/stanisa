@@ -9,3 +9,6 @@
 
 ## bootstrap
 * media object ipv picture containers
+* carousel slides moeten zelfde hoogte hebben
+  * anders verschuift de lightbox
+  * anders verschilt de background image zoom
